@@ -1,6 +1,23 @@
 {
-  "name": "Getting Started Example",
-  "version": "1.0",
-  "description": "Build an Extension!",
+  "name": "Telescam Phishing Checker",
+  "version": "1.1",
+  "description": "Site Phishing Cheker",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": { "scripts": ["jquery.min.js"] },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/telescam16.png",
+      "32": "images/telescam32.png",
+      "48": "images/telescam48.png",
+      "128": "images/telescam128.png"
+    }
+  },
+  "icons": {
+    "16": "images/telescam16.png",
+    "32": "images/telescam32.png",
+    "48": "images/telescam48.png",
+    "128": "images/telescam128.png"
+  },
   "manifest_version": 2
 }
